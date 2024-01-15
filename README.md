@@ -1,5 +1,5 @@
 
-# Python Docker Environment
+# Discord-BOT
 
 A minimalistic **Discord Bot Application** which one can reply to the user depending on user message.
 
