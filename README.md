@@ -11,6 +11,9 @@ A minimalistic **Discord Bot Application** which one can reply to the user depen
 ```bash
 cd my-project
 ```
+* Before run you should be maintain **.env** file inside the src directory.
+* Go to the [Discord Developer Portal](https://discord.com/developers/applications) and make a new application as you want.It will give you secret token to create **CLIENT** in your script. Copy and past it in **.env** file as named **DISCORD_TOKEN**
+
 * Build docker image
 ```bash
 docker-compose up --build
