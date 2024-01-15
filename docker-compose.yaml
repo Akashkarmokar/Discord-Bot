@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: discord_bot_container
+    command: ["python", "src/watcher.py"]
+    # ports:
+    #   - 5678:5678 # Debug Server
+    volumes:
+      - .:/project
